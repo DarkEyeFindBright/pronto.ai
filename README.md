@@ -2,7 +2,7 @@
 The repo directory is read as the first command line argument.
 
  ```
-python WasitRufus [git_dir]
+python WasitRufus.py [git_dir]
  ```
 
 
