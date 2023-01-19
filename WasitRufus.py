@@ -2,8 +2,8 @@ import sys
 from git import Repo
 import datetime
 
-dir = sys.argv[1]
-repo = Repo(dir)
+git_dir = sys.argv[1]
+repo = Repo(git_dir)
 
 # print active branch
 print("Active Branch: ", repo.active_branch.name)
